@@ -317,7 +317,7 @@ public class Validators {
                 }
                 _part = self.removeUnderscores(_part)
 
-                if (!self.regex("[a-z\u{00a1}-\u{ffff0}-9-]+")(_part)){
+                if (!self.regex("[a-z\u{00a1}-\u{ffff}0-9-]+")(_part)){
                     return false
                 }
 
